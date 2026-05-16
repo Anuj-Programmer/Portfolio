@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects — Eliott</title>
+  <title>Projects — Your Name</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&display=swap" rel="stylesheet"/>
-  <script>tailwind.config={darkMode:'class',theme:{extend:{fontFamily:{display:['PT Sans','sans-serif'],body:['DM Sans','sans-serif']},colors:{accent:'#FF6B2B','accent-light':'#FF8F5C'}}}}</script>
+  <script>tailwind.config={darkMode:'class',theme:{extend:{fontFamily:{display:['PT Sans','sans-serif'],body:['DM Sans','sans-serif']},colors:{accent:'#22D3EE','accent-light':'#67E8F9'}}}}</script>
   <style>
     *,*::before,*::after{box-sizing:border-box;}
     html{font-family:'DM Sans',sans-serif;}
@@ -17,7 +17,7 @@
     .nav-link{position:relative;}
     .nav-link::after{content:'';position:absolute;bottom:-2px;left:0;width:0;height:1.5px;background:currentColor;transition:width .25s cubic-bezier(.4,0,.2,1);}
     .nav-link:hover::after{width:100%;}
-    ::-webkit-scrollbar{width:5px;}::-webkit-scrollbar-track{background:transparent;}::-webkit-scrollbar-thumb{background:#FF6B2B;border-radius:99px;}
+    ::-webkit-scrollbar{width:5px;}::-webkit-scrollbar-track{background:transparent;}::-webkit-scrollbar-thumb{background:#22D3EE;border-radius:99px;}
     body{transition:background-color .3s,color .3s;}
     body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:.4;}
     .btn-primary{position:relative;overflow:hidden;}
@@ -36,7 +36,7 @@
     :class="scrolled?'bg-white/90 dark:bg-zinc-950/90 backdrop-blur-md shadow-sm shadow-black/5':'bg-transparent'">
     <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
       <a href="index.html" class="font-display font-bold text-xl tracking-tight z-10">
-        <span class="text-zinc-900 dark:text-white">eli</span><span class="text-accent">ott</span>
+        <span class="text-zinc-900 dark:text-white">your</span><span class="text-accent">name</span>
       </a>
       <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
         <li><a href="index.html#services" class="nav-link text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors">Services</a></li>
@@ -50,7 +50,7 @@
           <svg x-show="!dark" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
           <svg x-show="dark" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
         </button>
-        <a href="index.html#contact" class="hidden md:inline-flex items-center gap-2 btn-primary bg-accent text-white text-sm font-medium px-5 py-2 rounded-full hover:bg-accent-light transition-colors">Hire me &rarr;</a>
+        <a href="index.html#contact" class="hidden md:inline-flex items-center gap-2 btn-primary bg-accent text-white text-sm font-medium px-5 py-2 rounded-full hover:bg-accent-light transition-colors">Let's connect &rarr;</a>
         <button @click="mobileMenu=!mobileMenu" class="md:hidden w-9 h-9 flex items-center justify-center rounded-full border border-zinc-200 dark:border-zinc-800" aria-label="Toggle menu">
           <svg x-show="!mobileMenu" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
           <svg x-show="mobileMenu" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
@@ -74,7 +74,7 @@
       <div class="max-w-6xl mx-auto px-6 relative z-10">
         <p class="reveal text-xs font-medium text-accent tracking-widest uppercase mb-3">Portfolio</p>
         <h1 class="reveal font-display font-bold text-5xl md:text-6xl text-zinc-900 dark:text-white leading-tight mb-4">All Projects</h1>
-        <p class="reveal text-lg text-zinc-500 dark:text-zinc-400 max-w-xl leading-relaxed mb-8">A complete look at my work across UI/UX design, frontend development and landing pages.</p>
+        <p class="reveal text-lg text-zinc-500 dark:text-zinc-400 max-w-xl leading-relaxed mb-8">A complete look at my work across full-stack web, AI/ML, cloud deployment, Unity, and UI/UX design.</p>
         <div class="reveal flex flex-wrap gap-2">
           <template x-for="f in filterOptions" :key="f.value">
             <button
@@ -108,23 +108,27 @@
               x-transition:leave-start="opacity-100 scale-100"
               x-transition:leave-end="opacity-0 scale-95">
               <article class="project-card group h-full rounded-2xl overflow-hidden bg-white dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 hover:border-accent transition-colors">
-                <a :href="p.url" class="block photo-frame w-full h-52">
-                  <img :src="p.img" :alt="p.title" loading="lazy"/>
-                </a>
                 <div class="p-6">
                   <div class="flex flex-wrap gap-2 mb-3">
                     <template x-for="tag in p.tags" :key="tag">
                       <span class="text-xs px-2.5 py-1 rounded-full"
-                        :class="tag === p.categoryLabel ? 'bg-orange-50 dark:bg-zinc-800 text-accent border border-orange-200 dark:border-zinc-700' : 'bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400'"
+                        :class="tag === p.categoryLabel ? 'bg-cyan-50 dark:bg-zinc-800 text-accent border border-cyan-200 dark:border-zinc-700' : 'bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400'"
                         x-text="tag"></span>
                     </template>
                   </div>
-                  <a :href="p.url">
-                    <h3 class="font-display font-bold text-lg text-zinc-900 dark:text-white mb-2 group-hover:text-accent transition-colors" x-text="p.title"></h3>
-                  </a>
+                  <template x-if="p.url">
+                    <a :href="p.url" target="_blank" rel="noopener noreferrer">
+                      <h3 class="font-display font-bold text-lg text-zinc-900 dark:text-white mb-2 group-hover:text-accent transition-colors" x-text="p.title"></h3>
+                    </a>
+                  </template>
+                  <template x-if="!p.url">
+                    <h3 class="font-display font-bold text-lg text-zinc-900 dark:text-white mb-2" x-text="p.title"></h3>
+                  </template>
                   <p class="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed mb-4" x-text="p.desc"></p>
                   <div class="flex items-center justify-between">
-                    <a :href="p.url" class="inline-flex items-center gap-1.5 text-sm font-medium text-zinc-900 dark:text-white nav-link">View project →</a>
+                    <template x-if="p.url">
+                      <a :href="p.url" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm font-medium text-zinc-900 dark:text-white nav-link">View project →</a>
+                    </template>
                     <span class="text-xs text-zinc-400" x-text="p.year"></span>
                   </div>
                 </div>
@@ -156,7 +160,7 @@
 
   <footer class="border-t border-zinc-100 dark:border-zinc-900">
     <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p class="text-sm text-zinc-400">&copy; <span id="year"></span> Eliott. All rights reserved.</p>
+      <p class="text-sm text-zinc-400">&copy; <span id="year"></span> Your Name. All rights reserved.</p>
       <p class="text-xs text-zinc-500">Built with Tailwind CSS &amp; Alpine.js</p>
     </div>
   </footer>
@@ -170,23 +174,27 @@
         filter: 'all',
 
         filterOptions: [
-          { value: 'all',       label: 'All (9)' },
-          { value: 'saas',      label: 'SaaS' },
-          { value: 'landing',   label: 'Landing page' },
-          { value: 'agency',    label: 'Agency' },
-          { value: 'ecommerce', label: 'E-commerce' },
+          { value: 'all',   label: 'All (11)' },
+          { value: 'web',   label: 'Web (4)' },
+          { value: 'ai-ml', label: 'AI/ML (2)' },
+          { value: 'cloud', label: 'Cloud (1)' },
+          { value: 'unity', label: 'Unity (1)' },
+          { value: 'java',  label: 'Java (2)' },
+          { value: 'design', label: 'Design (1)' },
         ],
 
         allProjects: [
-          { id:1,  title:'Novu — SaaS Dashboard',  category:'saas',      categoryLabel:'SaaS',         tags:['SaaS','Figma','Tailwind'],           year:'2025', desc:'Complete redesign of a B2B notification platform. Reduced cognitive load by 40% and improved trial-to-paid conversion.',    img:'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=700&q=80',  url:'case-study.html' },
-          { id:2,  title:'Finlo — Fintech App',    category:'landing',   categoryLabel:'Landing page', tags:['Landing page','Fintech','Alpine.js'], year:'2024', desc:'Marketing site and onboarding flow for a personal finance app targeting young professionals.',                              img:'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&q=80', url:'case-study.html' },
-          { id:3,  title:'Orea — Creative Agency', category:'agency',    categoryLabel:'Agency',       tags:['Agency','Animation'],                year:'2024', desc:'Bold editorial site for a Paris-based branding studio. Scroll-driven animations and custom cursor.',                      img:'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=700&q=80', url:'case-study.html' },
-          { id:4,  title:'Vesta — Real Estate',    category:'landing',   categoryLabel:'Landing page', tags:['Landing page','Real Estate'],         year:'2024', desc:'Conversion-focused landing page for a proptech startup entering the French market.',                                      img:'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=700&q=80',  url:'case-study.html' },
-          { id:5,  title:'Arkio — SaaS Analytics', category:'saas',      categoryLabel:'SaaS',         tags:['SaaS','Dashboard','Figma'],           year:'2024', desc:'Data visualisation dashboard for a B2B analytics platform. Designed for clarity at high data density.',                img:'https://images.unsplash.com/photo-1581472723648-909f4851d4ae?w=700&q=80', url:'case-study.html' },
-          { id:6,  title:'Bloom — E-commerce',     category:'ecommerce', categoryLabel:'E-commerce',   tags:['E-commerce','Shopify'],               year:'2023', desc:'Custom Shopify theme for a sustainable cosmetics brand. Mobile-first with high emphasis on product imagery.',           img:'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=700&q=80',  url:'case-study.html' },
-          { id:7,  title:'Mira — Health App',      category:'landing',   categoryLabel:'Landing page', tags:['Landing page','Health','Tailwind'],   year:'2023', desc:'App landing page for a mental wellness startup. Warm, accessible design with strong social proof.',                    img:'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=700&q=80', url:'case-study.html' },
-          { id:8,  title:'Noto — Agency Rebrand',  category:'agency',    categoryLabel:'Agency',       tags:['Agency','Rebrand'],                  year:'2023', desc:'Full rebrand and website for a digital communications agency in Lyon.',                                                img:'https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80', url:'case-study.html' },
-          { id:9,  title:'Kova — E-commerce',      category:'ecommerce', categoryLabel:'E-commerce',   tags:['E-commerce','Figma'],                year:'2023', desc:'Product page redesign and checkout optimisation for a DTC furniture brand. Reduced cart abandonment by 18%.',         img:'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=700&q=80',  url:'case-study.html' },
+          { id:1,  title:'MERN Home Service Website', category:'web',   categoryLabel:'Web',   tags:['Web','MERN','REST APIs'],     year:'2025', desc:'Developed and deployed a fully responsive home service platform using React, Node.js, Express.js, MongoDB, and REST APIs.', url:'https://fyp-home-services-platform.vercel.app/' },
+          { id:2,  title:'Doctor Appointment Website (Team Project)', category:'web', categoryLabel:'Web', tags:['Web','MERN','Agile'], year:'2025', desc:'Led development in an Agile sprint-based team to build a doctor appointment system using the MERN stack.', url:'https://github.com/Anuj-Programmer/Online-Doctor-Appointment' },
+          { id:8,  title:'Weather Forecast Application', category:'web', categoryLabel:'Web', tags:['APIs','Frontend','Responsive'], year:'2023', desc:'Weather forecast app using APIs with clean, responsive UI.', url:'https://github.com/Anuj-Programmer/Weather-Forecast' },
+          { id:10, title:'Movie Management Web App', category:'web', categoryLabel:'Web', tags:['Firebase','Web App','CRUD'], year:'2023', desc:'Movie management web app built with Firebase for storage and auth.', url:'https://github.com/Anuj-Programmer/Basic-Movie-Managment-Web-using-FIREBASE' },
+          { id:3,  title:'AI/ML Deep Learning Projects', category:'ai-ml', categoryLabel:'AI/ML', tags:['AI/ML','RNN','BiLSTM'], year:'2024', desc:'Implemented AI/ML models using RNN and Bidirectional LSTM architectures for experimentation and prediction tasks.', url:'https://github.com/Anuj-Programmer/Artificial_Intelligence_and_Machine_Learning_Workshops/blob/main/2408570_AnujPrasadPradhan_Part2.ipynb' },
+          { id:4,  title:'Image Processing Project', category:'ai-ml', categoryLabel:'AI/ML', tags:['CNN','MobileNet','Transfer Learning'], year:'2024', desc:'Built CNN-based image processing models using Transfer Learning with MobileNet and Adam/SGD optimizers.', url:null },
+          { id:5,  title:'AWS Deployment Project', category:'cloud', categoryLabel:'Cloud', tags:['AWS Amplify','AWS S3','Deployment'], year:'2024', desc:'Deployed web applications using AWS Amplify and AWS S3 with cloud hosting and deployment integration.', url:null },
+          { id:6,  title:'Unity Development Projects', category:'unity', categoryLabel:'Unity', tags:['Unity','ACO','A* Pathfinding'], year:'2024', desc:'Developed Unity projects including Noughts and Crosses and a walk-around exploration game using ACO and A* pathfinding.', url:null },
+          { id:7,  title:'Java-based Bank Transfer GUI', category:'java', categoryLabel:'Java', tags:['Java','OOP','GUI'], year:'2023', desc:'GUI application demonstrating OOP principles for bank transfer flows.', url:null },
+          { id:9,  title:'Quiz Game (OOP)', category:'java', categoryLabel:'Java', tags:['Java','OOP','Game'], year:'2023', desc:'Quiz game built around OOP concepts and clean architecture.', url:null },
+          { id:11, title:'Movie Website UI/UX (Figma)', category:'design', categoryLabel:'Design', tags:['Figma','UI/UX','Prototype'], year:'2023', desc:'Full UI/UX design for a movie website, including wireframes and high-fidelity prototypes.', url:null },
         ],
 
         get visibleCount() {
