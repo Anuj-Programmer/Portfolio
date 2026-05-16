@@ -18,6 +18,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 
+  <!-- favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><radialGradient id='g'><stop offset='0%' style='stop-color:%2322D3EE;stop-opacity:1' /><stop offset='100%' style='stop-color:%231A8A9C;stop-opacity:1' /></radialGradient></defs><circle cx='50' cy='50' r='50' fill='url(%23g)'/><text x='50' y='65' font-size='70' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>" type="image/svg+xml">
+
 <script>
 tailwind.config = {
   darkMode: 'class',
@@ -428,15 +431,14 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
       <div class="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-3xl pointer-events-none" aria-hidden="true"></div>
       <div class="absolute bottom-0 left-0 w-40 h-40 bg-accent/10 rounded-full blur-2xl pointer-events-none" aria-hidden="true"></div>
 
-      <div class="relative z-10 grid md:grid-cols-2 gap-12 items-start">
-
+      <div class="relative z-10">
         <div>
           <p class="reveal text-xs font-medium text-accent tracking-widest uppercase mb-3">Get in touch</p>
-          <h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl text-white leading-tight mb-5">Let's connect<br>about internships</h2>
+          <h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl text-white leading-tight mb-5">Let's connect</h2>
           <p class="reveal d2 text-zinc-400 leading-relaxed mb-8">Open to internship opportunities in Software Development or AI Engineering. Happy to share projects, code samples, and case studies.</p>
 
           <div class="reveal d3 flex flex-col gap-4">
-            <a href="mailto:your.email@example.com" class="group flex items-center gap-3 text-zinc-400 hover:text-white transition-colors">
+            <a href="mailto:pradhananuj123@gmail.com" class="group flex items-center gap-3 text-zinc-400 hover:text-white transition-colors">
               <span class="w-9 h-9 flex items-center justify-center bg-zinc-800 rounded-lg group-hover:bg-accent/20 transition-colors shrink-0">
                 <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
               </span>
@@ -455,38 +457,6 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
               <span class="text-sm">https://github.com/Anuj-Programmer</span>
             </a>
           </div>
-        </div>
-
-        <div class="reveal d2">
-          <form action="#" method="POST" novalidate>
-            <div class="flex flex-col gap-4">
-              <div class="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label for="fname" class="block text-xs font-medium text-zinc-400 mb-1.5">Name <span aria-hidden="true">*</span></label>
-                  <input type="text" id="fname" name="name" placeholder="Jane Smith" required autocomplete="name"
-                    class="w-full bg-zinc-800 border border-zinc-700 text-white text-sm rounded-xl px-4 py-3 placeholder-zinc-600 focus:outline-none focus:border-accent transition-colors">
-                </div>
-                <div>
-                  <label for="femail" class="block text-xs font-medium text-zinc-400 mb-1.5">Email <span aria-hidden="true">*</span></label>
-                  <input type="email" id="femail" name="email" placeholder="jane@company.com" required autocomplete="email"
-                    class="w-full bg-zinc-800 border border-zinc-700 text-white text-sm rounded-xl px-4 py-3 placeholder-zinc-600 focus:outline-none focus:border-accent transition-colors">
-                </div>
-              </div>
-              <div>
-                <label for="fsubject" class="block text-xs font-medium text-zinc-400 mb-1.5">Subject</label>
-                <input type="text" id="fsubject" name="subject" placeholder="Project inquiry"
-                  class="w-full bg-zinc-800 border border-zinc-700 text-white text-sm rounded-xl px-4 py-3 placeholder-zinc-600 focus:outline-none focus:border-accent transition-colors">
-              </div>
-              <div>
-                <label for="fmessage" class="block text-xs font-medium text-zinc-400 mb-1.5">Message <span aria-hidden="true">*</span></label>
-                <textarea id="fmessage" name="message" rows="4" placeholder="Tell me about your project..." required
-                  class="w-full bg-zinc-800 border border-zinc-700 text-white text-sm rounded-xl px-4 py-3 placeholder-zinc-600 focus:outline-none focus:border-accent transition-colors resize-none"></textarea>
-              </div>
-              <button type="submit" class="shimmer w-full bg-accent text-white font-display font-bold text-sm py-3.5 rounded-xl hover:bg-accent-light transition-colors">
-                Send message →
-              </button>
-            </div>
-          </form>
         </div>
 
       </div>
